@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Mouse",
+    "description": "A compact and ergonomic wireless mouse with adjustable DPI settings.",
+    "image": "mouse.png",
+    "category": "Electronics",
+    "price": 19.99
+  },
+  {
+    "id": 2,
+    "title": "Laptop Backpack",
+    "description": "Durable and spacious backpack with multiple compartments for laptops and gadgets.",
+    "image": "backpack.png",
+    "category": "Accessories",
+    "price": 39.99
+  },
+  {
+    "id": 3,
+    "title": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with superior sound quality and a 10-hour battery life.",
+    "image": "speaker.png",
+    "category": "Electronics",
+    "price": 29.99
+  },
+  {
+    "id": 4,
+    "title": "Desk Organizer",
+    "description": "Stylish wooden desk organizer with slots for pens, phones, and notebooks.",
+    "image": "organize.png",
+    "category": "Office Supplies",
+    "price": 15.99
+  },
+  {
+    "id": 5,
+    "title": "Gaming Headset",
+    "description": "Comfortable gaming headset with noise-canceling microphone and surround sound.",
+    "image": "music-headphones.png",
+    "category": "Electronics",
+    "price": 49.99
+  },
+  {
+    "id": 6,
+    "title": "Running Shoes",
+    "description": "Lightweight running shoes with breathable material and non-slip soles.",
+    "image": "jogging.png",
+    "category": "Sportswear",
+    "price": 59.99
+  },
+  {
+    "id": 7,
+    "title": "Ceramic Mug Set",
+    "description": "Set of 4 ceramic mugs with colorful designs, perfect for coffee or tea.",
+    "image": "teapot.png",
+    "category": "Home & Kitchen",
+    "price": 24.99
+  },
+  {
+    "id": 8,
+    "title": "Smart Watch",
+    "description": "Feature-rich smart watch with fitness tracking and message notifications.",
+    "image": "watch.png",
+    "category": "Electronics",
+    "price": 129.99
+  },
+  {
+    "id": 9,
+    "title": "Water Bottle",
+    "description": "Insulated water bottle that keeps beverages hot or cold for hours.",
+    "image": "water-bottle.png",
+    "category": "Outdoors",
+    "price": 17.99
+  },
+  {
+    "id": 10,
+    "title": "Yoga Mat",
+    "description": "Non-slip yoga mat with extra cushioning for comfort during exercises.",
+    "image": "yoga-mat.png",
+    "category": "Sportswear",
+    "price": 25.99
+  },
+  {
+    "id": 11,
+    "title": "LED Desk Lamp",
+    "description": "Energy-efficient LED desk lamp with adjustable brightness and color temperature.",
+    "image": "desk-lamp.png",
+    "category": "Office Supplies",
+    "price": 34.99
+  },
+  {
+    "id": 12,
+    "title": "Chef's Knife",
+    "description": "Professional stainless steel chef's knife with an ergonomic handle.",
+    "image": "chef-knife.png",
+    "category": "Home & Kitchen",
+    "price": 29.99
+  },
+  {
+    "id": 13,
+    "title": "Camping Tent",
+    "description": "Waterproof two-person camping tent with easy setup and durable materials.",
+    "image": "camping-tent.png",
+    "category": "Outdoors",
+    "price": 79.99
+  },
+  {
+    "id": 14,
+    "title": "Book Stand",
+    "description": "Adjustable book stand for reading, studying, or cooking.",
+    "image": "book-stand.png",
+    "category": "Accessories",
+    "price": 19.99
+  },
+  {
+    "id": 15,
+    "title": "Resistance Bands",
+    "description": "Set of 5 color-coded resistance bands for strength training and rehabilitation.",
+    "image": "resistance-bands.png",
+    "category": "Sportswear",
+    "price": 15.99
+  },
+  {
+    "id": 16,
+    "title": "Wireless Charger",
+    "description": "Fast-charging wireless pad compatible with most smartphones.",
+    "image": "wireless-charger.png",
+    "category": "Electronics",
+    "price": 24.99
+  },
+  {
+    "id": 17,
+    "title": "Picnic Blanket",
+    "description": "Large waterproof picnic blanket with a stylish design and carrying strap.",
+    "image": "picnic-blanket.png",
+    "category": "Outdoors",
+    "price": 34.99
+  },
+  {
+    "id": 18,
+    "title": "Spice Rack Organizer",
+    "description": "Space-saving spice rack organizer with adjustable tiers for kitchen cabinets.",
+    "image": "spice-rack.png",
+    "category": "Home & Kitchen",
+    "price": 22.99
+  }
+]
