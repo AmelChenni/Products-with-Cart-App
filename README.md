@@ -8,7 +8,6 @@ It fetches products from a JSON file, displays them with categories, and allows 
 
 ## 🚀 Live Demo
 [👉 Demo Link](https://amelchenni.github.io/Products-with-Cart-App/)  
-(*Replace with your GitHub Pages/Netlify link*)
 
 ---
 
@@ -49,5 +48,6 @@ It fetches products from a JSON file, displays them with categories, and allows 
 ## 📄 Installation
 1. Clone the repo:
    ```bash
-   git clone https://github.com/username/repo-name.git
-   cd repo-name
+   git clone https://github.com/AmelChenni/Products-with-Cart-App.git
+   cd Products-with-Cart-App
+
