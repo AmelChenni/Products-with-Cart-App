@@ -42,6 +42,9 @@ function renderCateories(products){
       // update active
       liAllProducts.addEventListener('click',function(){
         updateActive(liAllProducts)
+        renderProducts(products); 
+
+        
       })
   navbar.appendChild(liAllProducts);
   // display others categories
