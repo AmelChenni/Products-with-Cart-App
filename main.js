@@ -50,9 +50,10 @@ function renderCateories(products){
       liCategory.className = "nav-item";
       liCategory.textContent =category;
         // update active
-      liCategory.addEventListener('click',function(){
-        
-        updateActive(liCategory)
+      liCategory.addEventListener('click',function(){    
+        updateActive(liCategory);
+      let filteredProducts = products.filter(p => p.category === category);
+      renderProducts(filteredProducts);        
       })
       navbar.appendChild(liCategory);
       
@@ -79,7 +80,7 @@ function renderProducts(products){
       <p class="description">${product.description}.</p>
       <div class="info-container">
         <p class="price">$${product.price}</p>
-        <p class="in-cart-amount">[ <span>${cartQuantity}</span> ] In Cart</p>
+        <p class="in-cart-amount">  ${cartQuantity > 0 ? `[ <span>${cartQuantity}</span> ] In Cart` : `<span> Not In Cart </span>` }</p>
       </div>
       <button data-id="${product.id}" data-title="${product.title}" data-price="${product.price}">
         Add To Cart
@@ -111,6 +112,17 @@ function addToCart(event){
       localStorage.setItem("cart",JSON.stringify(cart));
       updateCart();
 
+
+      let x = event.target.getAttribute("data-id");
+        let newQuantity = cart.find((item)=> item.id === x); 
+        newQuantity = newQuantity.quantity;     
+        // get the element
+        let box = this.closest(".product-card");
+        let y =box.querySelector('.in-cart-amount span');
+        y.textContent =newQuantity; 
+      
+        
+
 }
 
 // function updateCart 
@@ -129,7 +141,6 @@ cart.forEach(element => {
         <span>${element.price} x${element.quantity} </span>
       </div>
       <button class="delete-btn" data-id="${element.id}">Delete</button>
-   
   `
   cartItems.appendChild(liCart);
 
@@ -161,4 +172,6 @@ function deleteFromCart(id){
 
  
 // On louding
-document.addEventListener("DOMContentLoaded",initializeApp)
+document.addEventListener("DOMContentLoaded",initializeApp);
+
+
