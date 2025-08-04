@@ -119,7 +119,7 @@ function addToCart(event){
         // get the element
         let box = this.closest(".product-card");
         let y =box.querySelector('.in-cart-amount span');
-        y.textContent =newQuantity; 
+        y.textContent =`${newQuantity} In Cart`; 
       
         
 
